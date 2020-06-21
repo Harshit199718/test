@@ -14,18 +14,16 @@
     display: none;
 }
 
-#input-with-tool div:first-child{
-    width: 250px;
-    height: 50px;
-    border-radius: 4px;
-    position: absolute;
-    left: 30%;
-    top: -60px;
-    background: #E6E6E6;
+// #input-with-tool>div:first-child{
+//     width: 250px;
+//     height: 50px;
+//     border-radius: 4px;
+//     position: absolute;
+//     left: 30%;
+//     top: -115px;
+// }
+
+.editor-ck .ck-editor .ck-editor__top{
     display: none;
 }
 
-#input-with-tool:hover div:first-child, 
-#input-with-tool:hover::before{
-    display: block;
-}
